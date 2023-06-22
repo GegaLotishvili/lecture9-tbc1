@@ -1,4 +1,43 @@
-h2 {
-    color: yellow;
-    font-size: 70px;
+.bigbox {
+    width: 1000px;
+    height: 700px;
+    background-color: lightblue;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.smallbox {
+    width: 100px;
+    height: 100px;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
+
+.cyan {
+    background-color: rgb(0, 46, 46);
+}
+
+.fa-house {
+    font-size: 80px;
+    color: red;
+}
+.fa-youtube {
+    font-size: 80px;
+    color: lightgray;
+    transition: 0.2s;
+}
+.fa-youtube:hover {
+    color: red;
+    font-size: 90px;
 }
